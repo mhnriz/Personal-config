@@ -1,4 +1,5 @@
-PS1="%F{8}%n@%m:%f %F{red}%~%f > "
+#PS1="%F{8//}%n@%m:%f %F{red}%~%f > "
+PS1="%F{8//}%n@%m:%f %F{red}%~%f > "
 if (command -v brew && brew list --formula | grep -c vim ) > /dev/null 2>&1; then
     alias vim="$(brew --prefix vim)/bin/vim"
 fi
