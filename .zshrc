@@ -1,10 +1,10 @@
-#PS1="%F{8//}%n@%m:%f %F{red}%~%f > " #For apple macbook
+#PS1="%F{8//}%n@%m:%f %F{red}%~%f > " # For apple macbook
 PS1="%F{8//}%n@%m:%f %F{red}%~%f > "
 if (command -v brew && brew list --formula | grep -c vim ) > /dev/null 2>&1; then
     alias vim="$(brew --prefix vim)/bin/vim"
 fi
 
-#For apple macbook
+# For apple macbook
 #export PATH=/opt/homebrew/bin:$PATH
 #export PATH=/bin:$PATH
 #export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
